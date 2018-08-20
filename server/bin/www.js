@@ -13,7 +13,7 @@ let http = require('http');
  */
 
 // let myport = '6002' //本地
-let myport = '8080' //部署
+let myport = '8999' //部署
 let port = normalizePort(process.env.PORT || myport); //网站端口
 app.set('port', port);
 
